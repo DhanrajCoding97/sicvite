@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-text-primary: #e3e0f1;
+    --color-text-base: #080b08;
+    --color-text-muted: #0c0c0c;
+    --color-text-inverted: #4f46e5;
+    --color-fill: #4338ca;
+    --color-primary:#A495E3;
+    --color-secondary: #301a8a;
+    --color-accent:#512de5;
+    --color-button-accent: #6ab57c;
+    --color-button-muted: #6336f1;
+  }
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: var(--color-text-base);
+}
+
+
+:root {
+  --primary: #A495E3;
+  --background: #080B08;
+  --secondary:#3a6a46;
+  --accent: 
+  --white: #ffffff;
+  --bg: #f5f5f5;
+  --black: #000;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: var(--color-button-muted);
+  transition: all 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5d5dd4;
+}
+
+::-webkit-scrollbar-track {
+  background: #080B08;
+}
+
+.custom-img {
+  background: 
+    linear-gradient(90deg, rgba(0,0,0,0.65) 0%, rgba(20,20,28,0.65) 35%, rgba(141,154,157,0.65) 100%),
+    url("https://images.pexels.com/photos/4185121/pexels-photo-4185121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center / cover;
+}
+
+.layered-wave-1-img {
+  background: url("./assets/stacked-waves-haikei-2.svg") no-repeat center center / cover ;
+}
+
+.layered-wave-2-img {
+  background: url("./assets/stacked-waves-haikei.svg") no-repeat center center / cover ;
+}
+
+.layered-wave-3-img {
+  background: url("./assets/stacked-waves-haikei-3.svg") no-repeat center center / cover ;
+}
+
+.layered-wave-4-img {
+  background: url("./assets/stacked-waves-haikei-4.svg") no-repeat center center / cover ;
+}
