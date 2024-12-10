@@ -3,28 +3,28 @@ import { Link } from 'react-scroll'
 import Slide from './ui/Slide'
 const Footer = () => {
   return (
-    <footer className='bg-gradient-to-b from-black to-black/5'>
+    <footer >
       <Slide>
         <div className="footer">
-          <div className="row">
+          {/* <div className="row">
             <ul>
               <li>
-                <Link 
-                  to="hero" 
-                  spy={true} 
-                  smooth={true} 
-                  offset={0} 
-                  duration={500}  
+                <Link
+                  to="hero"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
                   className="text-xl font-bold hover:text-[#66c3e3] cursor-pointer">
                   Home
                 </Link>
               </li>
               <li>
-                <Link 
-                  to="about" 
-                  spy={true} 
-                  smooth={true} 
-                  offset={-50} 
+                <Link
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
                   duration={500}
                   className="text-xl font-bold hover:text-[#66c3e3] cursor-pointer"
                 >
@@ -32,11 +32,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link 
+                <Link
                   to="services"
-                  spy={true} 
-                  smooth={true} 
-                  offset={-50} 
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
                   duration={500}
                   className="text-xl font-bold hover:text-[#66c3e3] cursor-pointer"
                 >
@@ -44,11 +44,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link 
+                <Link
                   to="products"
-                  spy={true} 
-                  smooth={true} 
-                  offset={-50} 
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
                   duration={500}
                   className="text-xl font-bold hover:text-[#66c3e3] cursor-pointer"
                 >
@@ -56,22 +56,22 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link 
-                to="contact"
-                spy={true} 
-                smooth={true} 
-                offset={-50} 
-                duration={500}
-                className="text-xl font-bold hover:text-[#66c3e3] cursor-pointer"
+                <Link
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
+                  duration={500}
+                  className="text-xl font-bold hover:text-[#66c3e3] cursor-pointer"
                 >
                   Contact
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className="row">
-            <h2 className="text-xl font-bold">Star Instruments & Control © 2023 
-              <br /> 
+            <h2 className="text-xl font-bold">Star Instruments & Control © 2023
+              <br />
               All rights reserved
             </h2>
           </div>

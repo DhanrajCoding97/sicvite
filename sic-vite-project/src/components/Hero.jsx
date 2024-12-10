@@ -8,7 +8,7 @@ const Hero = ({ message }) => {
         className="text text-skin-base z-[2] px-5 sm:px-8 md:px-10 lg:pl-32"
         initial={{
           opacity: 0,
-          y: -50,
+          y: 50,
           transition: {
             type: "spring",
             stiffness: 300,
@@ -21,7 +21,7 @@ const Hero = ({ message }) => {
           transition: {
             type: "spring",
             stiffness: 80,
-            delay: 0.5,
+            delay: 1,
           },
         }}
       >
@@ -34,9 +34,9 @@ const Hero = ({ message }) => {
           {message}
         </p>
         <motion.a
-          initial={{ y: 100, opacity: 0 }}
+          initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 1, duration: 0.8, type: "tween" }}
+          transition={{ delay: 1.5, duration: 0.8, type: "tween" }}
           href="https://wa.me/918152889614"
           className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
         >

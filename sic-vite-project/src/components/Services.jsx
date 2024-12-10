@@ -28,7 +28,7 @@ const Services = () => {
   return (
     <section id="services">
       <Slide>
-        <div className="py-20 bg-fixed bg-cover bg-center layered-wave-2-img">
+        <div className="py-20">
           <div className="text-center px-5 sm:px-8 md:px-10">
             <h1 className="font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-clip bg-gradient-to-r from-purple-600 to-blue-300 bg-clip-text text-transparent">
               Services
